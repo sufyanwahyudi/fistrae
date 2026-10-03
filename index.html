@@ -18,7 +18,7 @@
     <meta property="og:url" content="https://fistrae.mediatulisanmanusia.com/">
 
     <!-- Favicon (Ikon di tab browser) -->
-    <link rel="icon" type="image/png" href="logo-fistra.png">
+    <link rel="icon" type="image/webp" href="logomtm.webp">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,45 +26,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* TEMA TERANG (Elegan, Nuansa Biru Denim/Steel Blue) */
+        /* TEMA TERANG (Elegan, Nuansa Dusty Rose & Warm Mocha) */
         :root {
-            --bg-color-1: #ffffff; /* Putih Bersih */
-            --bg-color-2: #e8eff5; /* Biru sangat muda / Icy Blue */
-            --glass-bg: rgba(255, 255, 255, 0.65); 
+            --bg-color-1: #fdfaf9; /* Putih hangat dengan hint cream */
+            --bg-color-2: #ecdcd9; /* Pinkish brown muda */
+            --glass-bg: rgba(255, 255, 255, 0.65);
             --glass-border: rgba(255, 255, 255, 0.9);
-            --bubble-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(232, 239, 245, 0.7));
-            --bubble-shadow: inset 0px 4px 15px rgba(255, 255, 255, 1), 0 10px 20px rgba(74, 107, 140, 0.08);
-            --text-main: #1e293b; /* Biru dongker sangat gelap untuk teks */
-            --text-muted: #475569;
+            --bubble-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(236, 220, 217, 0.7));
+            --bubble-shadow: inset 0px 4px 15px rgba(255, 255, 255, 1), 0 10px 20px rgba(138, 90, 83, 0.08);
+            --text-main: #4a3633; /* Coklat gelap elegan untuk teks */
+            --text-muted: #7d6561;
             --card-hover: rgba(255, 255, 255, 0.95);
-            --accent-color: #4a6b8c; /* Steel Blue / Denim (Warna Hijab) */
-            --accent-glow: rgba(74, 107, 140, 0.2);
+            --accent-color: #a67268; /* Dusty rose / Soft Terracotta */
+            --accent-glow: rgba(166, 114, 104, 0.2);
             --btn-text-color: #ffffff;
-            --floating-bubble-color: rgba(200, 215, 230, 0.5);
+            --floating-bubble-color: rgba(217, 191, 186, 0.5);
             /* Warna Cahaya Latar Belakang Terang */
-            --orb-1: rgba(74, 107, 140, 0.2);
-            --orb-2: rgba(54, 91, 152, 0.15);
-            --dot-color: rgba(74, 107, 140, 0.08);
+            --orb-1: rgba(166, 114, 104, 0.2);
+            --orb-2: rgba(184, 137, 128, 0.15);
+            --dot-color: rgba(166, 114, 104, 0.08);
         }
 
-        /* TEMA GELAP (Elegan dengan Nuansa Navy/Midnight Blue) */
+        /* TEMA GELAP (Elegan dengan Nuansa Deep Chocolate/Burgundy) */
         [data-theme="dark"] {
-            --bg-color-1: #0f172a; /* Navy pekat */
-            --bg-color-2: #1e293b; /* Slate blue gelap */
-            --glass-bg: rgba(30, 41, 59, 0.4);
+            --bg-color-1: #241c1b; /* Coklat kehitaman */
+            --bg-color-2: #140f0e; /* Almost black */
+            --glass-bg: rgba(56, 43, 41, 0.4);
             --glass-border: rgba(255, 255, 255, 0.08);
-            --bubble-bg: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.6));
+            --bubble-bg: linear-gradient(135deg, rgba(56, 43, 41, 0.8), rgba(28, 21, 20, 0.6));
             --bubble-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.05), 0 10px 30px rgba(0, 0, 0, 0.6);
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --card-hover: rgba(51, 71, 102, 0.6);
-            --accent-color: #82a4c6; /* Soft dusty blue untuk dark mode */
-            --accent-glow: rgba(130, 164, 198, 0.2);
-            --btn-text-color: #0f172a;
-            --floating-bubble-color: rgba(130, 164, 198, 0.05);
+            --text-main: #f5ebe9;
+            --text-muted: #b8a3a0;
+            --card-hover: rgba(79, 62, 59, 0.6);
+            --accent-color: #d1a39a; /* Soft rose gold untuk dark mode */
+            --accent-glow: rgba(209, 163, 154, 0.2);
+            --btn-text-color: #241c1b;
+            --floating-bubble-color: rgba(209, 163, 154, 0.05);
             /* Warna Cahaya Latar Belakang Gelap */
-            --orb-1: rgba(130, 164, 198, 0.12);
-            --orb-2: rgba(148, 163, 184, 0.08);
+            --orb-1: rgba(209, 163, 154, 0.12);
+            --orb-2: rgba(222, 185, 178, 0.08);
             --dot-color: rgba(255, 255, 255, 0.03);
         }
 
@@ -196,7 +196,7 @@
             max-width: 950px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 25px 50px -12px rgba(74, 107, 140, 0.15);
+            box-shadow: 0 25px 50px -12px rgba(166, 114, 104, 0.15);
             position: relative;
             z-index: 1;
             margin: 0 auto; 
@@ -403,6 +403,7 @@
             width: 100%;
         }
 
+        /* Diubah menjadi button agar bisa memanggil modal popup */
         .btn-outline {
             background: var(--glass-bg);
             border: 1px solid var(--accent-color);
@@ -420,6 +421,7 @@
             gap: 8px;
             flex: 1;
             min-width: 160px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
 
         .btn-outline:hover {
@@ -517,6 +519,44 @@
         .theme-toggle {
             position: fixed; top: 30px; right: 30px; z-index: 100;
         }
+
+        /* --- MODAL NOT FOUND KHUSUS --- */
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            display: flex; justify-content: center; align-items: center;
+            z-index: 1000; opacity: 0; visibility: hidden;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .modal-overlay.active { opacity: 1; visibility: visible; }
+
+        .modal-box {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 35px; border-radius: 30px;
+            width: 90%; max-width: 400px; text-align: center;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+            transform: translateY(30px) scale(0.95);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .modal-overlay.active .modal-box { transform: translateY(0) scale(1); }
+        .modal-box h3 { font-size: 18px; margin-bottom: 10px; color: var(--text-main); font-weight: 700; }
+        .modal-box p { font-size: 13px; color: var(--text-muted); margin-bottom: 25px; line-height: 1.5; }
+
+        .modal-buttons { display: flex; justify-content: center; width: 100%; }
+
+        .modal-btn {
+            padding: 12px 30px; border-radius: 18px;
+            border: none; font-weight: 700; font-size: 13px; cursor: pointer; transition: all 0.3s ease;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--accent-color); color: var(--btn-text-color); box-shadow: 0 10px 20px var(--accent-glow);
+        }
+
+        .modal-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 25px var(--accent-glow); }
 
         /* --- Responsif untuk HP & Tablet --- */
         @media (max-width: 768px) {
@@ -623,11 +663,11 @@
         <!-- Tombol Aksi Terstruktur -->
         <div class="action-container fade-in-up" style="animation-delay: 0.6s;">
             <div class="btn-group-small">
-                <!-- Tombol Portfolio -->
-                <a href="portfolio.pdf" class="btn-outline" target="_blank">
+                <!-- Tombol Portfolio kini memanggil Popup Modal -->
+                <button class="btn-outline" onclick="showNotFoundModal()">
                     <i class="far fa-file-pdf"></i> Portfolio & Ratecard
-                </a>
-                <a href="https://staff.mediatulisanmanusia.com/?id=202647" class="btn-outline" target="_blank">
+                </button>
+                <a href="https://staff.mediatulisanmanusia.com/?id=20260" class="btn-outline" target="_blank">
                     <i class="fas fa-id-badge"></i> Kartu Identitas
                 </a>
             </div>
@@ -644,6 +684,19 @@
         </div>
 
     </main>
+
+    <!-- Modal Notifikasi Dokumen Belum Ada -->
+    <div class="modal-overlay" id="notFoundModal">
+        <div class="modal-box">
+            <!-- Menampilkan logo MTM di dalam modal pop-up -->
+            <img src="logomtm.webp" alt="Media Tulisan Manusia" style="width: 65px; margin-bottom: 15px; border-radius: 10px;">
+            <h3>Dokumen Belum Tersedia</h3>
+            <p>Mohon maaf, Portfolio & Ratecard saat ini sedang dalam proses pembaruan dan belum diunggah. Silakan kembali lagi nanti.</p>
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="closeNotFoundModal()">Kembali</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Area Tombol Sosmed -->
     <div class="floating-controls" id="floatingControls">
@@ -683,7 +736,7 @@
             }
         });
 
-        // --- EFEK TYPEWRITER (Penambahan Brand Ambassador) ---
+        // --- EFEK TYPEWRITER ---
         const roles = ["Professional MC", "Voice Over Talent", "Ex-News Anchor", "Founder MC Nusantaraa", "Muse & Entrepreneur", "Brand Ambassador"];
         let roleIndex = 0;
         let charIndex = 0;
@@ -716,6 +769,17 @@
         }
 
         setTimeout(typeEffect, 1000);
+
+        // --- LOGIKA MODAL NOT FOUND ---
+        const notFoundModal = document.getElementById('notFoundModal');
+
+        function showNotFoundModal() {
+            notFoundModal.classList.add('active');
+        }
+
+        function closeNotFoundModal() {
+            notFoundModal.classList.remove('active');
+        }
     </script>
 </body>
 </html>
